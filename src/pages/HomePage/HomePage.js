@@ -36,7 +36,7 @@ export default function HomePage() {
   return (
     <>
       <div className="flex-fill container d-flex flex-column p-20">
-        <h1 className="my-30">
+        <h1 className={`my-30 ${styles.title}`}>
           Découvrez nos nouvelles recettes{' '}
           <small className={styles.small}>- {recipes.length}</small>
         </h1>
